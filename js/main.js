@@ -40,6 +40,30 @@
 				items:3
 			}
 		}
-	})
+	});
+
+
+	// best-design
+	$('.best-slider-active').owlCarousel({
+		loop:true,
+		nav:false,
+		margin:10,
+		autoplay:true,
+		items:1,
+		autoplaySpeed:true,
+		responsive:{
+			0:{
+				items:3
+
+			},
+			600:{
+				items:3
+			},
+			1000:{
+				items:3
+			}
+		}
+	});
+
 
 })(jQuery);
