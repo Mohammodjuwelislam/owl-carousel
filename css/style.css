@@ -5,8 +5,8 @@
 
 .slider-active .owl-nav div {
 	position: absolute;
-	bottom: 15%;
-	left: 15%;
+	bottom: 50%;
+	left: 2%;
 	width: 50px;
 	height: 50px;
 	line-height: 47px;
@@ -22,7 +22,7 @@
 }
 .slider-active  .owl-nav div.owl-next {
 	left: auto;
-	right: 15%;
+	right: 2%;
 }
 
 .slider-active .owl-nav div:hover{
@@ -54,6 +54,38 @@
 .slider-active .owl-dot.active {
 	background: rgb(6, 229, 80);
 	width: 60px;
+}
+
+
+.slider-single-item {
+	padding: 126px;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.slider-content h4 {
+	font-size: 35px;
+	color: red;
+	margin-bottom: 20px;
+}
+
+.slider-content i {
+	font-size: 20px;
+	color: blue;
+	font-weight: bold;
+  }
+  .slider-content i span {
+	margin-left: 12px;
+  }
+
+.slider-content a {
+	padding: 10px 30px;
+	background: red;
+	text-decoration: none;
+	color: #fff;
+	border-radius: 5px;
+	display: inline-block;
 }
 
 /* owl-carousel-slider-section-end */
